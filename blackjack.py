@@ -81,7 +81,7 @@ OR
 win_condition = (you[1] and ((you[0] == 21) or 
                              (you[0] > dilla[0] and dilla[1]) or
                              (not dilla[1])
-                             )
+                            )
                 )
 if win_condition:
     print("You win!")
